@@ -165,15 +165,3 @@ if (!empty($searchResult)) {
 } else {
     echo "No items found for product"  . $toBeSearch . "\n";
 }
-
-
-
-
-
-
-// echo "Removing Items from the 'Kart' \n \n";
-// $kart->removeItem("Bike");
-// $kart->removeItem("Cream");
-
-// print_r($kart->getItems()) . "\n \n";
-// echo "\n Total price is: " . $kart->getTotal() . "\n";  // Totals after removing Items
